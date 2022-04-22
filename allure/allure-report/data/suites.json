@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "The account registration",
+    "children" : [ {
+      "name" : "Should register an account with valid credentials",
+      "uid" : "896723ad8e94b332",
+      "parentUid" : "e726543d58653b270c0d9578481d2a7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650629308755,
+        "stop" : 1650629321815,
+        "duration" : 13060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "e726543d58653b270c0d9578481d2a7d"
+  }, {
+    "name" : "Customer should login to his account",
+    "children" : [ {
+      "name" : "\"after each\" hook for Customer should login to his account",
+      "uid" : "3a5678ca5950be4",
+      "parentUid" : "4808348285d1ddfa3b8d4c629ac65164",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650629330756,
+        "stop" : 1650629356412,
+        "duration" : 25656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "4808348285d1ddfa3b8d4c629ac65164"
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "The account registration",
+    "children" : [ {
+      "name" : "Should register an account with valid credentials",
+      "uid" : "896723ad8e94b332",
+      "parentUid" : "449a803bd95b6a3635402f823c333d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650629308755,
+        "stop" : 1650629321815,
+        "duration" : 13060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "449a803bd95b6a3635402f823c333d64"
+  }, {
+    "name" : "Customer should login to his account",
+    "children" : [ {
+      "name" : "\"after each\" hook for Customer should login to his account",
+      "uid" : "3a5678ca5950be4",
+      "parentUid" : "a9bc4436b3462a0950a9083c37b729e4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650629330756,
+        "stop" : 1650629356412,
+        "duration" : 25656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "a9bc4436b3462a0950a9083c37b729e4"
+  } ]
+}

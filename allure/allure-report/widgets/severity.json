@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3a5678ca5950be4",
+  "name" : "\"after each\" hook for Customer should login to his account",
+  "time" : {
+    "start" : 1650629330756,
+    "stop" : 1650629356412,
+    "duration" : 25656
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "896723ad8e94b332",
+  "name" : "Should register an account with valid credentials",
+  "time" : {
+    "start" : 1650629308755,
+    "stop" : 1650629321815,
+    "duration" : 13060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

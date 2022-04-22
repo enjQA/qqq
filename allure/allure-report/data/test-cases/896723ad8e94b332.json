@@ -1,0 +1,117 @@
+{
+  "uid" : "896723ad8e94b332",
+  "name" : "Should register an account with valid credentials",
+  "fullName" : "The account registration.Should register an account with valid credentials",
+  "historyId" : "242bc06dfe4de8d54017962715ea9c75",
+  "time" : {
+    "start" : 1650629308755,
+    "stop" : 1650629321815,
+    "duration" : 13060
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Should move to the Register page",
+      "time" : {
+        "start" : 1650629308756,
+        "stop" : 1650629317213,
+        "duration" : 8457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill the credentials",
+      "time" : {
+        "start" : 1650629317213,
+        "stop" : 1650629321515,
+        "duration" : 4302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Register the account",
+      "time" : {
+        "start" : 1650629321515,
+        "stop" : 1650629321814,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The account registration"
+  }, {
+    "name" : "testClass",
+    "value" : "The account registration"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should register an account with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "The account registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "896723ad8e94b332.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

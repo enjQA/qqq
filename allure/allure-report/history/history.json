@@ -1,0 +1,41 @@
+{
+  "91b1e103236aac9e7b18a44d165bf6d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a5678ca5950be4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.View/android.view.View[3]/android.widget.TextView\" because element wasn't found",
+      "time" : {
+        "start" : 1650629330756,
+        "stop" : 1650629356412,
+        "duration" : 25656
+      }
+    } ]
+  },
+  "242bc06dfe4de8d54017962715ea9c75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "896723ad8e94b332",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650629308755,
+        "stop" : 1650629321815,
+        "duration" : 13060
+      }
+    } ]
+  }
+}
